@@ -1,0 +1,11 @@
+{
+	"/candy": {
+		"target": "http://localhost:5000",
+		"secure": false,
+    "logLevel": "debug"
+	},
+  "comments": {
+    "localhost": "가 아닌 경우",
+    "changeOrigin": true
+  }
+}
