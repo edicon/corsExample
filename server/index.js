@@ -12,7 +12,7 @@ app.get('/',(req,res)=>{
 })
 app.get('/candy',(req,res)=>{
   // SOL1: use direct setting CORS
-  // res.set('Access-Control-Allow-Origin', 'http://localhost:8000');
+  // res.set('Access-Control-Allow-Origin', 'http://localhost:4200');
 	res.json({'candy':'bubble-gum'})
 })
 app.listen(PORT,()=>console.log(`server running on port ${PORT}`))

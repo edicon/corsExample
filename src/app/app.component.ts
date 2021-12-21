@@ -39,7 +39,7 @@ export class AppComponent {
     } else if (this.proxyType === ProxyType.LCP) {
       // Use Local-cors-proxy
       // $ npm install local-cors-proxy
-      // $ ./node_modules/local-cors-proxy/bin/lcp.js --proxyUrl http://localhost:8000
+      // $ ./node_modules/local-cors-proxy/bin/lcp.js --proxyUrl http://localhost:4200
       let proxyUrl = "http://localhost:8010/proxy/";
     }
     const apiUrl = proxyUrl + 'candy';
